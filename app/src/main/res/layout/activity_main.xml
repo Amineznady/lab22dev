@@ -8,57 +8,52 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-
         <TextView
-            android:id="@+id/tvvide"
+            android:id="@+id/tvSt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="12dp"
             android:text=""
-            android:textSize="20sp" />
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
         <TextView
-        android:id="@+id/tvval"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="12dp"
-        android:text=""
-        android:textSize="20sp" />
-        <TextView
-        android:id="@+id/tvcve"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingBottom="12dp"
-        android:text=""
-        android:textSize="20sp" />
-        <TextView
-            android:id="@+id/tvFact"
+            android:id="@+id/tvSts"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="12dp"
-            android:text="HELLO JINI"
-            android:textSize="20sp" />
-
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
         <TextView
-            android:id="@+id/tvReverse"
+            android:id="@+id/tvStu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reverse String"
-            android:textSize="20sp"
-            android:paddingBottom="12dp" />
+            android:text=""
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Etat securite"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="16dp" />
 
         <TextView
             android:id="@+id/tvHello"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="12dp"
-            android:text="FACTORIEL"
-            android:textSize="20sp" />
+            android:text="Hello JNI"
+            android:textSize="20sp"
+            android:paddingBottom="12dp" />
 
         <TextView
-            android:id="@+id/tvArray"
+            android:id="@+id/tvFact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Somme tableau"
+            android:text="Factoriel"
             android:textSize="20sp"
             android:paddingBottom="12dp" />
 

@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.22.1)
 
-project("lab22")
+project("lab22dev")
 
 add_library(
         native-lib
